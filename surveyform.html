@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form | Basic</title>
+    <link rel="stylesheet" href="./suryvey.css">
+</head>
+<body>
+    <h1>Survey Form</h1><br>
+    <h3>Let us know about you</h3>
+    <div class="box">
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" required placeholder="Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" placeholder="Enter your Age"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth </td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="Gender" required>Male <input type="radio" name="Gender">Female <input type="radio" name="Gender"> Transgender</td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" required placeholder="Enter Your Mobile Number"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter your email address" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name=""cols="30" rows="2" required placeholder="Enter your Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Field of Study</td>
+                    <td>
+                        <select required>
+                            <option>BSc (CS)</option>
+                            <option>BE (CS)</option>
+                            <option>BCA</option>
+                            <option>MCA</option>
+                            <option>MSc (CS)</option>
+                        </select>
+                    </td>
+                    <tr>
+                        <td>Skills</td>
+                        <td><input type="checkbox">HTML<input type="checkbox">CSS <input type="checkbox">Java Script <input type="checkbox">Django</td>
+                    </tr>
+                    <tr>
+                        <td>Uplode Resume</td>
+                        <td><input type="file" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td><input type="submit" class="submit"></td>
+                    </tr>
+                </tr>
+
+        </table>
+    </form>
+    </div>
+    <script>
+        alert("Welcome To My Survey Form")
+    </script>
+</body>
+</html>
